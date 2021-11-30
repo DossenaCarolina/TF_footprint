@@ -19,7 +19,7 @@ Pipeline overview:
 
 
 //Command to run 
-//nextflow run main.nf --design [path/to/design/file.csv] {--tf [TF_NAME], --tf_list [path/to/tf_list.txt]} -w /storage/workingarea/MAP/til-epigenetics/bulk/atac-seq/analysis/footiprint/work/ -resume -bg
+//nextflow run main.nf --design [path/to/design/file.csv] {--tf [TF_NAME] | --tf_list [path/to/tf_list.txt]} -w [path/to/work/dir/]
 
 //Validate inputs
 if (!params.tf && !params.tf_list) {
